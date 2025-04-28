@@ -1,7 +1,7 @@
 # 📖 Project Management System
 
 ## Deskripsi Proyek
-**Project Management System** adalah aplikasi berbasis Laravel 10.x yang dirancang untuk mengelola **Proyek**, **Tugas**, dan **Komentar** dengan fitur:
+**Project Management System** adalah aplikasi berbasis Laravel 12.x yang dirancang untuk mengelola **Proyek**, **Tugas**, dan **Komentar** dengan fitur:
 - Autentikasi
 - Manajemen Role & User
 - Soft Deletes
@@ -53,14 +53,14 @@ Aplikasi ini menggunakan **SB Admin 2** untuk antarmuka UI dan integrasi **Selec
 ---
 
 ## ⚙️ Persyaratan
-- PHP ≥ 8.1
+- PHP ≥ 8.2
 - Composer ≥ 2.0
 - MySQL (atau database support Laravel)
 - Node.js & NPM
 - Redis/Database untuk queue (set `QUEUE_CONNECTION=database`)
 
 **Package utama:**
-- `laravel/framework: ^10.0`
+- `laravel/framework: ^12.0`
 - `maatwebsite/excel: ^3.1`
 - `owen-it/laravel-auditing: ^13.0`
 - `spatie/laravel-permission` (optional)
